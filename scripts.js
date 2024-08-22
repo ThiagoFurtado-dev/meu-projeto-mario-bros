@@ -12,13 +12,13 @@ function clicknamascara() {
   mascara.style.visibility = "hidden"
 }
 const contato= document.querySelector(".header")
-
+const formulario = document.querySelector('.formulario')
 function faleconosco(){
-  form.style.left = "50%"
-  form.style.transform = "translateX(-50%)"
-  
+ 
+ formulario.style.left = "50%"
+  formulario.style.transform = "translateX(-50%)"
+  mascara.style.visibility = "visible"
 }
-
 
 
 
