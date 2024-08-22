@@ -11,11 +11,10 @@ function clicknamascara() {
   form.style.transform = "translateX(0)"
   mascara.style.visibility = "hidden"
 }
-const contato= document.querySelector(".header")
+const contato = document.querySelector(".header")
 const formulario = document.querySelector('.formulario')
-function faleconosco(){
- 
- formulario.style.left = "50%"
+function faleconosco() {
+  formulario.style.left = "50%"
   formulario.style.transform = "translateX(-50%)"
   mascara.style.visibility = "visible"
 }
